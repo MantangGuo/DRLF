@@ -1,6 +1,6 @@
 # DRLF
 
-PyTorch implementation of IEEE TPAMI 2021 paper: "[Deep Spatial-angular Regularization for Light Field Imaging, Denoising, and Super-resolution](https://ieeexplore.ieee.org/abstract/document/9448470/)".
+PyTorch implementation of IEEE TPAMI 2021 paper: "[Deep Spatial-angular Regularization for Light Field Imaging, Denoising, and Super-resolution](https://ieeexplore.ieee.org/abstract/document/9448470/)". The video demo of the results is [here](https://drive.google.com/file/d/1pud0vAPNNjlBkSl84ro7HTxT2T5OBcWi/view?usp=sharing)
 
 ## Requrements
 - Python 3.6.10
