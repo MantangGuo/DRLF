@@ -1,12 +1,9 @@
 clear all;
 %% Parameter setting
 gtPath='.\Dataset_Stanford_Lytro\';
-savePath='.\test_noiseLeve_10-20-50_4-11_indoors.mat';
-sceneClass={'general','general','general','general'};
-chosenSceneEachClass=[[1,1];[36,38];[41,41];[43,43]];
-% h5Structure.label='/lf';
-% h5Structure.input=["/noilf_10","/noilf_20","/noilf_50"];
-% h5Structure.savePath=savePath;              
+savePath='.\test_noiseLeve_10-20-50_4-11.mat';
+sceneClass={'bikes','buildings','cars','flowers_plants','fruits_vegetables','people'};
+chosenSceneEachClass=[[2,6];[21,25];[21,25];[21,25];[2,6];[5,9]];             
 eslfAngSize=14;
 startAngCordi=4;
 angSize=8;
@@ -43,8 +40,6 @@ for i=1:size(sceneClass,2)
     end
 end
 save(savePath,'lf','noilf_10','noilf_20','noilf_50','LF_name','-v6');
-%% shuffle and save the label and input
-% Data2H5(count, h5Structure,lf,noilf_10,noilf_20,noilf_50);
 
 
     
