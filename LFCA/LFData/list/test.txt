@@ -28,3 +28,9 @@ IMG_1586_eslf.png
 IMG_1743_eslf.png
 Rock.png
 Seahorse.png
+dino
+medieval2
+Bottles_dense
+Camera_brush_dense
+Dinosaur_dense
+Green_balloon_dense
